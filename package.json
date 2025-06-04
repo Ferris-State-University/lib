@@ -1,0 +1,20 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "Helper libraries, functions, and whatnot",
+  "scripts": {
+    "build": "npx tsc && git add lib/",
+    "prebuild": "npm version patch --no-git-tag-version --no-commit-hooks --allow-same-version"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Ferris State University",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^22.16.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29"
+  }
+}
